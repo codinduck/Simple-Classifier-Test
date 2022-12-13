@@ -1,6 +1,7 @@
 # Simple-Classifier-Test
 
 This classifier classifies cancer as benign or malignant based on 30 different attributes.
+
 DATA-LEVEL INFORMATION
 
 •	2 Class problems: Benign and Malignant. [B and M : 0 or 1 (Binary)]
