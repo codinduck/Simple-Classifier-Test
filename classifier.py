@@ -20,6 +20,8 @@ le=preprocessing.LabelEncoder()
 mms=preprocessing.MinMaxScaler()
 ny=le.fit_transform(y)
 print("Encoded classifiers are", np.unique(ny))
+sns.countplot(x="diagnosis", data=dataframe)
+plt.show()
 
 #y represents output values
 #x represents input set
@@ -49,6 +51,8 @@ history = model.fit(x_train, y_train, verbose=1, epochs=100, batch_size=64, vali
 yp = model.predict(x_test)
 yp = (yp > 0.5)
 c = confusion_matrix(y_test,yp)
+sns.heatmap(c, annot=True)
+plt.show()
 print(c)
 
 
