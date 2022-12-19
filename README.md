@@ -4,6 +4,9 @@ This classifier classifies cancer as benign or malignant based on 30 different a
 
 DATA-LEVEL INFORMATION
 
+![image](https://user-images.githubusercontent.com/40331004/208396021-6b7a14f8-d02e-447f-b449-357bc963c1e1.png)
+
+
 •	2 Class problems: Benign and Malignant. [B and M : 0 or 1 (Binary)]
 
 •	Structured data
@@ -52,6 +55,8 @@ MODEL-LEVEL INFORMATION
 •	Final layer- 16 weights + 1 bias = 17
 
 •	Get to a saturation points based on epochs
+
+![image](https://user-images.githubusercontent.com/40331004/208396109-d74b9391-3141-481d-88f4-02698c0a2da9.png)
 
 ============================================================================
 
